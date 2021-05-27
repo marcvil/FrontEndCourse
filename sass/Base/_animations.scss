@@ -45,6 +45,30 @@
     
 }
 
+@keyframes RotRight {
+    0%{
+        text-shadow: .5rem 1rem 2rem rgba($color-black,0);
+    }
+    25%{
+        transform:skewY(3deg);
+        text-shadow: .5rem 1rem 2rem rgba($color-black,.4);
+    }
+    50%{
+        text-shadow: .5rem 1rem 2rem rgba($color-black,0);
+    }
+    75%{
+        transform:skewY(-3deg);
+        text-shadow: .5rem 1rem 2rem rgba($color-black,.4);
+
+     
+    }
+    100%{
+        transform:skewY(0deg);
+        text-shadow: .5rem 1rem 2rem rgba($color-black,0);
+    }
+    
+}
+
 
 
 @keyframes fadeIn {

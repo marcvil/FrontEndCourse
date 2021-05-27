@@ -16,7 +16,10 @@
     "url": "https://github.com/marcvil/FrontEndCourse/issues"
   },
   "homepage": "https://github.com/marcvil/FrontEndCourse#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "font-awesome": "^4.7.0"
+  },
   "devDependencies": {
     "node-sass": "^6.0.0"
   }
